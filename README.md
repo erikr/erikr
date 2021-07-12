@@ -1,6 +1,8 @@
 ### Now
 
-🧬 As the Director of Data Science & Engineering at [Prometheus Biosciences](https://www.prometheusbiosciences.com), I work with data scientists, software engineers, biologists, and clinicians to advance precision medicine using data and compute.
+🧬 I am the Director of Data Science & Engineering at [Prometheus Biosciences](https://www.prometheusbiosciences.com).
+
+🚀 I work with data scientists, software engineers, biologists, and clinicians to advance precision medicine using data and compute.
 
 ### Previously
 - 📊 postdoc at Mass General, MIT, and the Broad Institute
