@@ -13,7 +13,8 @@
 - 🏄🏻‍♂️ BS in bioengineering from UCLA
 
 ### Blog Posts
+asdf
 
-### Tech
+### [Tech](/tech.md)
 
-### [Science](asdf)
+### [Science](/science.md)
