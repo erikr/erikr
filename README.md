@@ -6,9 +6,9 @@ I am the Director of Data Science & Engineering at [Prometheus Biosciences](http
 
 🚀 I work with technologists, scientists, and clinicians to advance precision medicine using data and compute.
 
-🐦 I'm on Twitter at [@erikrtn](https://twitter.com/erikrtn).
+🐦 I'm on Twitter at [`@erikrtn`](https://twitter.com/erikrtn).
 
- 🎓 My papers are on [Google Scholar](https://scholar.google.com).
+ 🎓 My publications are on [Google Scholar](https://scholar.google.com).
 
 ## Previously
 - 📊 postdoc at Mass General, MIT, and the Broad Institute
