@@ -13,16 +13,16 @@
 - 🏄 BS in bioengineering from UCLA
 
 ### Blog Posts
-[Elastic net in `sklearn` vs `keras`](/posts/elastic-net.md)
-[New job at Prometheus](/posts/prometheus.md)
-[How to give a great chalk talk](/posts/chalk-talk.md
-[Forge merges with Sling Health](/posts/forge.md)
-[My interview for the Hertz Fellowship](/posts/hertz-interview.md)
-[Tips for new TAs](/posts/tips-for-taing.md)
-[The GT BME PhD qualifying exam](/posts/gtbme-quals.md)
-[Write a great personal statement for medical school](/posts/ps.md)
-[Make $43K by not paying your medical school debt](/posts/roth.md)
-[Tips for new researchers](/posts/tips-for-researchers.md)
+[Elastic net in `sklearn` vs `keras`](/posts/elastic-net.md)  
+[New job at Prometheus](/posts/prometheus.md)  
+[How to give a great chalk talk](/posts/chalk-talk.md)  
+[Forge merges with Sling Health](/posts/forge.md)  
+[My interview for the Hertz Fellowship](/posts/hertz-interview.md)  
+[Tips for new TAs](/posts/tips-for-taing.md)  
+[The GT BME PhD qualifying exam](/posts/gtbme-quals.md)  
+[Write a great personal statement for medical school](/posts/ps.md)  
+[Make $43K by not paying your medical school debt](/posts/roth.md)  
+[Tips for new researchers](/posts/tips-for-researchers.md)  
 
 ### Tech
 I completed my postdoctoral fellowship at the Center for Systems Biology at Massachusetts General Hospital, Computational Cardiovascular Research Group at MIT, and Machine Learning for Health initiative at the Broad Institute. I curated multimodal biomedical data, developed ML infrastructure, and trained models to predict clinical outcomes from EMR data and ECGs.
