@@ -1,16 +1,25 @@
-### Hi there 👋
+# Hi, I'm Erik 👋
 
-<!--
-**erikr/erikr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## About Me
 
-Here are some ideas to get you started:
+I am the Director of Data Science & Engineering at [Prometheus Biosciences](https://www.prometheusbiosciences.com).
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🚀 I work with technologists, scientists, and clinicians to advance precision medicine using data and compute.
+
+🐦 I'm on Twitter at [@erikrtn](https://twitter.com/erikrtn).
+
+ 🎓 My papers are on [Google Scholar](https://scholar.google.com).
+
+## Previously
+- 📊 postdoc at Mass General, MIT, and the Broad Institute
+- 💡 intern at Takeda Ventures
+- 🤝 cofounder at Forge
+- 🏥 MD from Emory
+- 💻 PhD in biomedical engineering & statistics from Georgia Tech
+- 🏄🏻‍♂️ BS in bioengineering from UCLA
+
+## Posts
+
+## Tech
+
+## Science
