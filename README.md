@@ -24,8 +24,6 @@
 [Tips for new researchers](/posts/tips-for-researchers.md)  
 
 ### Tech
-I lead data science and engineering at [Prometheus](https://www.prometheusbiosciences.com). Our team builds infrastructure that enables Prometheus to leverage powerful compute, proprietary data, and rigorous approaches (including ML) to obtain new insights into IBD immune pathway biology. We accelerate R&D efforts in target discovery, biomarkers, and companion diagnostics. 
-
 From 2019-2021 I was an Innovator in Residence at the [Mass General Healthcare Transformation Lab](http://healthcaretransformation.org). I worked with Innovation Fellows on projects leveraging machine learning to monitor patient physiology, lower costs, and improve outcomes.  
 
 In 2018 I interned at [Takeda Ventures](http://takedaventures.com), an early-stage venture capital firm within Takeda Pharmaceuticals. I worked with Senior Partner [David Shaywitz, MD, PhD](https://www.linkedin.com/in/david-shaywitz-md-phd-232a237/). We evaluated investment opportunities in startups that use data science and technology to discover, assess, or deliver impactful new treatments for patients. 
