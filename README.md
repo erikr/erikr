@@ -1,5 +1,5 @@
 ### About
-Erik is the Director of Data Science & Engineering at [Prometheus Biosciences](https://www.prometheusbiosciences.com), where he leads a team of data scientists and software engineers to organize multimodal biomedical data, build ML infrastructure for companion diagnostics, and develop scalable software for genomic and transcriptomic analyses.
+Erik leads Data Science & Engineering at [Prometheus Biosciences](https://www.prometheusbiosciences.com). His team of data scientists and software engineers develops Prometheus 360, a platform of curated data and computational tools that accelerates target discovery, target validation, and companion diagnostic development. Bioinformatics capabilities include genetic target discovery, bulk and single cell RNA-Seq, and machine learning to identify subgroups of patients who respond to therapeutic candidates.
 
 Before joining Prometheus, Erik completed postdoctoral training at MGH, MIT, and the Broad Institute developing deep learning approaches to phenotype patients using high-resolution physiological time series data.  He also evaluated early-stage investment opportunities at Takeda Ventures with a focus on data science and drug discovery.
 
