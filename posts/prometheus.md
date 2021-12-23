@@ -3,7 +3,7 @@ layout: post
 title: New role at Prometheus
 ---
 
-I am excited to announce my new role as Director of Data Science and Engineering at [Prometheus Biosciences](https://www.prometheusbiosciences.com) -- a rocketship of a life science startup in San Diego that seeks to develop computational methods for GI immunology, clinical disease phenotyping, companion diagnostics, and therapeutic discovery. My team will develop and execute the road map for how the company organizes and analyzes clinical and multi-omics data from one of the richest biobanks in the world.
+I am excited to announce my new role as Director of Data Science and Engineering at [Prometheus Biosciences](https://www.prometheusbiosciences.com) -- a rocketship of a life science startup in San Diego that seeks to develop novel therapeutics and companion diagnostics for autoimmune disease. My team will develop and execute the road map for how the company organizes and analyzes clinical and multi-omics data, starting with unfettered access to one the richest GI biobanks in the world.
 
 The timing is fortuitious -- a close friend from medical school (who actually recruited me to this role) just joined Prometheus as Chief of Staff to the CEO. The company raised $130M, has collaborations and data from several academic medical centers, and needs modern technology infrastructure to enable an ambitious vision of precision medicine.
 
