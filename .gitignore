@@ -1,0 +1,61 @@
+# Snowflake
+*.log
+*.log_bootstrap
+
+# Jekyll
+_site/
+.jekyll-cache/
+
+# vim
+.vim
+
+# Office
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
+# Python notebooks
+.ipynb_checkpoints
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Results directory
+results/
+
+# C extensions
+*.so
+
+# JetBrains IDEs
+.idea/
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
