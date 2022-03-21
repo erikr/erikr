@@ -80,7 +80,8 @@ else # $OSTYPE darwin* == macos, so put mac-only aliases here
 
     # Copy GitHub personal access token to clipboard,
     # enabling me to paste it to terminal via ⌘+v
-    PATH_TO_TOKENS="$HOME/Google\ Drive/tokens-and-backups"
+    PATH_TO_TOKENS=~/"Documents/tokens"
+    echo $PATH_TO_TOKENS
     alias ghpat="cat $PATH_TO_TOKENS/github-pat | pbcopy"
 
     # Rebuild icon cache in macOS
@@ -90,9 +91,7 @@ else # $OSTYPE darwin* == macos, so put mac-only aliases here
     alias rebuildspotlight="sudo mdutil -E /"
 fi
 
-hash -d gd=~"/Google Drive"
 hash -d icloud=~"/Library/Mobile Documents/com~apple~CloudDocs"
-hash -d od=~"/OneDrive - Prometheus Biosciences"
 hash -d dl=~/Downloads
 hash -d dt=~/Desktop
 
