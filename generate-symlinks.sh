@@ -1,5 +1,5 @@
 BOOTSTRAP_DIR=$HOME/erikr
-files=".zshrc .aliases .gitignore .wgetrc .tmux.conf"
+files=".zshrc .aliases .gitignore .wgetrc .tmux.conf .macos"
 for file in $files; do
     echo "Attempting to delete $HOME/$file"
     rm $HOME/$file
