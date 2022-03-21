@@ -63,16 +63,6 @@ bindkey "^E" vi-end-of-line
 # Enable globbing
 setopt extended_glob
 
-# Pure theme
-fpath+=$HOME/.zsh/pure
-autoload -U promptinit; promptinit
-PURE_PROMPT_SYMBOL=$
-LIGHTGREY=default
-zstyle :prompt:pure:user color $LIGHTGREY
-zstyle :prompt:pure:host color $LIGHTGREY
-zstyle :prompt:pure:virtualenv color $LIGHTGREY
-prompt pure
-
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -103,6 +93,16 @@ plugins=(tmux docker docker-compose zsh-syntax-highlighting zsh-autosuggestions 
 ZSH_DISABLE_COMPFIX="true"
 export ZSH=$HOME/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
+
+# Pure theme
+fpath+=$HOME/.zsh/pure
+autoload -U promptinit; promptinit
+PURE_PROMPT_SYMBOL=$
+LIGHTGREY=default
+zstyle :prompt:pure:user color $LIGHTGREY
+zstyle :prompt:pure:host color $LIGHTGREY
+zstyle :prompt:pure:virtualenv color $LIGHTGREY
+prompt pure
 
 # Set default editor to vim
 export EDITOR=$(which vim)
