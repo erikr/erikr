@@ -49,9 +49,9 @@ else # $OSTYPE darwin* == macos, so put mac-only aliases here
         brew upgrade;
         brew cleanup;
         brew doctor;
-        mamba update conda;
-        mamba update --all;
-        mamba clean -a;
+        conda update conda;
+        conda update --all;
+        conda clean -a;
         sudo purge;
     }
 

@@ -1,0 +1,25 @@
+name: dongmul
+channels:
+    - defaults
+    - anaconda
+    - conda-forge
+dependencies:
+    - python=3.9
+    - numpy
+    - pandas
+    - openpyxl
+    - xlrd
+    - scipy
+    - scikit-learn
+    - matplotlib
+    - seaborn
+    - setuptools
+    - toml
+    - jupyterlab
+    - tqdm
+    - pytest
+    - boto3
+    - black
+    - pre-commit
+    - isort
+    - s3fs

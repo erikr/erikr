@@ -18,38 +18,25 @@ then
     export PATH="/usr/local/sbin:$PATH"
     eval $(/opt/homebrew/bin/brew shellenv)
 
-    # >>> conda initialize >>>
-    # !! Contents within this block are managed by 'conda init' !!
-    __conda_setup="$('/Users/ereinertsen/mambaforge/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-    if [ $? -eq 0 ]; then
-        eval "$__conda_setup"
-    else
-        if [ -f "/Users/ereinertsen/mambaforge/etc/profile.d/conda.sh" ]; then
-            . "/Users/ereinertsen/mambaforge/etc/profile.d/conda.sh"
-        else
-            export PATH="/Users/ereinertsen/mambaforge/bin:$PATH"
-        fi
-    fi
-    unset __conda_setup
-    # <<< conda initialize <<<
+	# >>> conda initialize >>>
+	# !! Contents within this block are managed by 'conda init' !!
+	__conda_setup="$('/opt/homebrew/Caskroom/miniforge/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+	if [ $? -eq 0 ]; then
+		eval "$__conda_setup"
+	else
+		if [ -f "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/conda.sh" ]; then
+			. "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/conda.sh"
+		else
+			export PATH="/opt/homebrew/Caskroom/miniforge/base/bin:$PATH"
+		fi
+	fi
+	unset __conda_setup
+	# <<< conda initialize <<<
+
+
 # Amazon Linux 2 paths
 else
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
-    # >>> conda initialize >>>
-    # !! Contents within this block are managed by 'conda init' !!
-    __conda_setup="$('/opt/mambaforge/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-    if [ $? -eq 0 ]; then
-        eval "$__conda_setup"
-    else
-        if [ -f "/opt/mambaforge/etc/profile.d/conda.sh" ]; then
-            . "/opt/mambaforge/etc/profile.d/conda.sh"
-        else
-            export PATH="/opt/mambaforge/bin:$PATH"
-        fi
-    fi
-    unset __conda_setup
-    # <<< conda initialize <<<
 fi
 
 DISABLE_MAGIC_FUNCTIONS=true
@@ -88,7 +75,7 @@ HIST_STAMPS="yyyy-mm-dd"
 
 # Oh-my-zsh plugins live in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(tmux docker docker-compose zsh-syntax-highlighting zsh-autosuggestions gitfast)
+plugins=(tmux zsh-syntax-highlighting zsh-autosuggestions git)
 
 ZSH_DISABLE_COMPFIX="true"
 export ZSH=$HOME/.oh-my-zsh
