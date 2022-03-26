@@ -80,7 +80,7 @@ else # $OSTYPE darwin* == macos, so put mac-only aliases here
 
     # Copy GitHub personal access token to clipboard,
     # enabling me to paste it to terminal via ⌘+v
-    PATH_TO_TOKENS=~/"Documents/tokens"
+    PATH_TO_TOKENS=~/"Library/Mobile\ Documents/com~apple~CloudDocs/Documents/tokens"
     alias ghpat="cat $PATH_TO_TOKENS/github-pat | pbcopy"
 
     # Rebuild icon cache in macOS
