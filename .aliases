@@ -52,9 +52,8 @@ else # $OSTYPE darwin* == macos, so put mac-only aliases here
     }
 
     function cleanup () {
-        echo "Emptying the Trash 🗑 on all mounted volumes and the main HDD.."
-        sudo rm -rfv /Volumes/*/.Trashes/* &>/dev/null
-        sudo rm -rfv ~/.Trash/* &>/dev/null
+        echo "Emptying the Trash 🗑  on main HDD.."
+        sudo rm -rfv "~/Library/Mobile Documents/com~apple~CloudDocs/.Trash/*" &>/dev/null
         echo "Clearing System Cache Files..."
         sudo rm -rfv /Library/Caches/* &>/dev/null
         sudo rm -rfv /System/Library/Caches/* &>/dev/null
