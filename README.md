@@ -1,5 +1,5 @@
 ### About
-Erik founded and led Data Science & Engineering (DSE) at Prometheus Biosciences, a biotech company bringing precision medicine to autoimmune disease. DSE’s flagship product is Prometheus360, a suite of data assets, bioinformatics pipelines, and machine learning tools to enable precision therapeutic discovery and companion diagnostic development.
+Erik built and led the Data Science & Engineering (DSE) team at Prometheus Biosciences, a biotech company bringing precision medicine to autoimmune disease. DSE’s flagship product was Prometheus360, a suite of data assets, bioinformatics pipelines, and machine learning tools to enable precision therapeutic discovery and companion diagnostic development.
 
 Before joining Prometheus, Erik completed postdoctoral training at Mass General, MIT, and the Broad Institute developing deep learning approaches to phenotype patients using high-resolution physiological time series data.  He also evaluated early-stage investment opportunities at Takeda Ventures with a focus on data science and drug discovery.
 
