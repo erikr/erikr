@@ -8,7 +8,6 @@ if [ -f /etc/profile ]; then
 	PATH=""
 	source /etc/profile
 fi
-export PATH="/Applications/SnowSQL.app/Contents/MacOS:$PATH"
 export PATH="/usr/bin:$PATH"
 export PATH="/bin:$PATH"
 export PATH="/usr/sbin:$PATH"
@@ -16,6 +15,7 @@ export PATH="/sbin:$PATH"
 export PATH="/usr/local:$PATH"
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
 eval $(/opt/homebrew/bin/brew shellenv)
 
 DISABLE_MAGIC_FUNCTIONS=true
