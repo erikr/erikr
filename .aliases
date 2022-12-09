@@ -55,9 +55,9 @@ else # $OSTYPE darwin* == macos, so put mac-only aliases here
         echo "Emptying the Trash 🗑  on main HD..."
         sudo rm -rfv ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/* &>/dev/null
         echo "Clearing System Cache Files..."
+        sudo rm -rfv ~/Library/Caches/* &>/dev/null
         sudo rm -rfv /Library/Caches/* &>/dev/null
         sudo rm -rfv /System/Library/Caches/* &>/dev/null
-        sudo rm -rfv ~/Library/Caches/* &>/dev/null
         sudo rm -rfv /private/var/folders/bh/*/*/*/* &>/dev/null
         echo "Clearing System Log Files..."
         sudo rm -rfv /private/var/log/asl/*.asl &>/dev/null
@@ -78,7 +78,7 @@ else # $OSTYPE darwin* == macos, so put mac-only aliases here
             echo "Cleaning up Homebrew Cache..."
             brew cleanup --force -s &>/dev/null
         brew cask cleanup &>/dev/null
-        rm -rfv /Library/Caches/Homebrew/* &>/dev/null
+        rm -rfv ~/Library/Caches/Homebrew/* &>/dev/null
         brew tap --repair &>/dev/null
         fi
 

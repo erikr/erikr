@@ -1,45 +1,22 @@
 # Fig pre block. Keep at the top of this file.
-. "$HOME/.fig/shell/zshrc.pre.zsh"
-# macOS paths
-if [[ $OSTYPE == 'darwin'* ]]
-then
-    # https://superuser.com/questions/544989/does-tmux-sort-the-path-variable
-    # Clear PATH before path_helper executes; will prevent it from prepending the default
-    # PATH to your (previously) chosen PATH
-    if [ -f /etc/profile ]; then
-        PATH=""
-        source /etc/profile
-    fi
-    export PATH="/Applications/SnowSQL.app/Contents/MacOS:$PATH"
-    export PATH="/usr/bin:$PATH"
-    export PATH="/bin:$PATH"
-    export PATH="/usr/sbin:$PATH"
-    export PATH="/sbin:$PATH"
-    export PATH="/usr/local:$PATH"
-    export PATH="/usr/local/bin:$PATH"
-    export PATH="/usr/local/sbin:$PATH"
-    eval $(/opt/homebrew/bin/brew shellenv)
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 
-	# >>> conda initialize >>>
-	# !! Contents within this block are managed by 'conda init' !!
-	__conda_setup="$('/opt/homebrew/Caskroom/miniforge/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-	if [ $? -eq 0 ]; then
-		eval "$__conda_setup"
-	else
-		if [ -f "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/conda.sh" ]; then
-			. "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/conda.sh"
-		else
-			export PATH="/opt/homebrew/Caskroom/miniforge/base/bin:$PATH"
-		fi
-	fi
-	unset __conda_setup
-	# <<< conda initialize <<<
-
-
-# Amazon Linux 2 paths
-else
-    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+# https://superuser.com/questions/544989/does-tmux-sort-the-path-variable
+# Clear PATH before path_helper executes; will prevent it from prepending the default
+# PATH to your (previously) chosen PATH
+if [ -f /etc/profile ]; then
+	PATH=""
+	source /etc/profile
 fi
+export PATH="/Applications/SnowSQL.app/Contents/MacOS:$PATH"
+export PATH="/usr/bin:$PATH"
+export PATH="/bin:$PATH"
+export PATH="/usr/sbin:$PATH"
+export PATH="/sbin:$PATH"
+export PATH="/usr/local:$PATH"
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+eval $(/opt/homebrew/bin/brew shellenv)
 
 DISABLE_MAGIC_FUNCTIONS=true
 
@@ -119,4 +96,24 @@ autoload -Uz compinit && compinit
 export CONDA_AUTO_ACTIVATE_BASE=false
 
 # Fig post block. Keep at the bottom of this file.
-. "$HOME/.fig/shell/zshrc.post.zsh"
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/ereinertsen/mambaforge/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/ereinertsen/mambaforge/etc/profile.d/conda.sh" ]; then
+        . "/Users/ereinertsen/mambaforge/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/ereinertsen/mambaforge/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+
+if [ -f "/Users/ereinertsen/mambaforge/etc/profile.d/mamba.sh" ]; then
+    . "/Users/ereinertsen/mambaforge/etc/profile.d/mamba.sh"
+fi
+# <<< conda initialize <<<
+
