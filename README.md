@@ -5,6 +5,8 @@ Before Prometheus, Erik completed a postdoctoral fellowship at Mass General, MIT
 
 Erik received an MD from Emory University and a PhD in Biomedical Engineering with a minor in Statistics from Georgia Institute of Technology where he published and patented signal processing and machine learning methods applied to physiological data. He also co-founded Forge Health, a non-profit that provided startups with funding, mentors, and assistance starting clinical pilots at Emory Healthcare and the Atlanta VA Medical Center. Erik received his undergraduate degree from UCLA in Bioengineering with focuses in Computer Science and Chemical Engineering.
 
+In his free time Erik enjoys pickleball, bouldering, and traveling.
+
 ### Blog Posts
 [New job at Prometheus](/posts/prometheus.md)  
 [How to give a great chalk talk](/posts/chalk-talk.md)  
