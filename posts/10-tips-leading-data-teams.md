@@ -23,39 +23,34 @@ In early 2021 I joined Prometheus, a small biotech startup, as employee #27 and 
 
 My job was to build this. Over the next two years, we defined the product roadmap, recruited a small but stellar team of data scientists and software engineers, stood up our cloud architecture, and ingested terabtyes of multimodal biological data. Our infrastructure, capabilities, and expertise enabled target validation and companion diagnostics (CDx) development.
 
-In March 2021, we went public (with the ticker `$RXDX`), announced positive phase 1 data, and expanded indications to systemic scleroderma. At the end of 2022, we announced positive phase 2 data in IBD. In 2023, after two years as the best-performing biotech stock, we were acquired by Merck for $10.8B. This outcome was a win for patients and shareholders, but the journey was not without adversity, tribulation, and failure.
-
-When I started, I lacked operating experience in biotech, nor did I have a background in genetics or immunology - although attending medical school helped. I was surprised when almost all of our challenges turned out to be cultural, interpersonal, and communication-related rather than scientific or technical. I wish I had the benefit of hindsight; a concise and practical guide that was specific to the nuances of leading a technical team within a biotech. While no document can fully capture the nuances of each situation, and your context will differ from mine, I hope this serves as a helpful resource.
+In March 2021, we went public (with the ticker `$RXDX`), announced positive phase 1 data, and expanded indications to systemic scleroderma. At the end of 2022, we announced positive phase 2 data in IBD. In 2023, after two years as the best-performing biotech stock, we were acquired by Merck for $10.8B. This outcome was a win for patients and shareholders, but the journey was not without adversity, tribulation, and failure. Although your context will differ from mine, I hope this list of "things I wish I knew" serves as a helpful resource.
 
 
 ## Table of Contents
 
---
+> To add when draft is finalized.
+>
 
-## 1. Align platform progress with leadership face-to-face and via a biweekly digest
+## 1. Inform the company of your team's progress via a biweekly digest
 
-An inflection point of alignment between our C-suite and technical team ocurred when I presented (in-person, face-to-face) our product vision and road map for Prometheus 360. This long-overdue sync had previously taken place in bits and pieces; 1-on-1s with the CEO, casual conversations with the COO over lunch, etc. My prior boss, our CSO, would give a brief overview of P360 progress in 1-2 slides at regular leadership team meetings. However, all stakeholders had not yet huddled in the same room for a start-to-finish overview of the platform. Preparing a deck was a forcing function (albeit a little corporate) to decide what to build, when (how long does it take), why (justify the cost), and how much $ it would cost. We also called out what we would NOT build, and why.
+Every two weeks I wrote and shared a "DSE Digest" to our VPs and C-suite. This cadence aligned with our sprint length and balanced speed with substance. I covered 5-7 topics per digest. For each topic, e.g., "Data ingestion and curation from Cedars-Sinai Medical Center", I summarized "Wins", "Challenges", and "Next Steps".
 
-This also was an opportunity to face the reality that we were a biotech with interests in technology, not a platform "TechBio" company like Recursion or Insitro. DSE's role was to enable and support R&D efforts such as target validation and CDx development. Our purpose was not to generate revenue from services or partnerships. The bottleneck was not novel targets, so we didn't need to turbocharge target discovery. Our culture, org chart (we did not have a CTO or CDO), budget, and positioning to the market reflected this reality. I encourage the same reality check for anyone in this space. A surprising number of people are out of touch, or in denial of, the type of company they work at, or have founded. If I joined a TechBio startup instead of a biotech, I might have had learned more, had more fun, and made a larger impact. But life does not give you access to the counterfactual. We play our best with the hand we are dealt.
+For "Wins", highlight team members by name. This is an opportunity to highlight valuable work done by data scientists and engineers who rarely interface with the c-suite. This was especially important at Prometheus because the C-suite was on-site but our team was distributed.
 
-After this sync, I started sending a biweekly, asynchronous "DSE Digest" to all VPs and C-level executives per the advice of our Chief Business Officer (one of the most effective operators I've had the privilege to work with). You can choose a different cadence, but we liked every two weeks because this aligned with our sprint length and balanced speed with substance. I covered between 5-7 topics each digest. For each topic, e.g., "Data ingestion and curation from Cedars-Sinai Medical Center", I summarized "Wins", "Challenges / Blockers", and "Next Steps".
-
-For "Wins", I suggest you highlight team members by name. Corporate gamesmanship is distasteful, but this is an opportunity to highlight valuable work done by data scientists and engineers who rarely interface with the c-suite. This was especially important at Prometheus because most of the c-suite was on-site whereas the entire DSE team was distributed.
-
-For "Challenges / Blockers", our company culture mandated a tone of optimism, and dissuaded mentioning people by name. Praise in public, critique in private. I did not find this optimal. The opposite culture might be seen at a place like Bridgewater, where a mistake, failure, or impediment is precisely called out as Bob's error. The practical use here was to surface issues that we needed leadership to help us solve, such as a lack of resources or an unresponsive collaborator (especially if within our company). 
+For "Challenges", I surfaced issues that we needed leadership to help us solve, such as a lack of resources or an unresponsive collaborator (especially if within our company). 
 
 For "Next Steps", I listed 2-3 upcoming milestones. I omitted future goals that were months away or abstract. I like accountability so I was precise with who owned each next step, and the date of expected completion.
 
-This digest was redundant for intra-DSE alignment since we met weekly and referenced a single source of truth (SSOT) for our tasks. However, it was useful for inter-team alignment even at the lower levels of the org chart. We occasionally sent the digest to our colleagues in CDx or Immunology so they had more context on our priorities and progress. It would have also been a valuable resource for onboarding new hires to our team, although we stopped hiring.
-
-I realized (painfully late in my tenure) nobody else really cares about platforms, infrastructure, and capabilities. At a biotech, people care about clinical and scientific results that move assets forward. PM means Project or Program Manager, not Product Manager. I lost track of how many times Accounting asked me what program an expense was for, to which I'd always reply "my team doesn't work on programs; we work on the platform that applies to all current and future programs". We found the best way to convey value was by connecting every bullet point in the digest to the relevant therapeutic program, and how the capability mattered for the top-line goal.
+I realized (painfully late in my tenure) nobody else really cares about platforms, infrastructure, and capabilities. We found the best way to convey value of platform work was by connecting every bullet point in the digest to the relevant therapeutic program, and how the capability mattered for the top-line goal.
 
 For example, our Principal Software Engineer rewrote our genetic imputation pipeline to be 200x faster. This statistic alone is robust justification of the work if you are an engineer. But nobody else cared until they realized turnaround time from new sequenced samples to results was now 1 hour instead of 1 week. This much faster QC iteration time enabled us to find and correct several key errors in both the upstream sample handling process and the computational pipeline. This enabled us to achieve the desired statistical power for our CDx work related to our lead program.
 
-Lastly, a practical tip if you are in a corporate / legacy / old school company. We used Notion as a SSOT, and shared our digests by emailing a link to people. But many readers preferred to be emailed an exported PDF so they could read the content without installing Notion, opening a link, or needing internet access, e.g., on a plane flight. So I emailed a link and also attached the exported PDF even if it was redundant and not the way I wanted others to work.
+I emailed a link and also attached the exported PDF if readers preferred that, e.g., were on a plane flight without internet access.
+
+At first, I wrote the entire digest, circulated to my reports for feedback, and sent it out. Over time, I delegated more and more of the digest to my reports. The topics also eventually stabilized into our ~5 platform-related goals. The digest became the channel for each goal owner to share progress with the company.
 
 
-## 2. Conduct monthly retrospectives with your team to build candor, trust, and alignment.
+## 2. Conduct monthly retrospectives with your team to reflect and learn.
 
 I first experienced this reflection / ritual / group therapy session at the Broad Institute as a collaborating member of the Machine Learning For Healthcare team, led by Puneet Batra. I immediately loved it, and later brough it to Prometheus.
 
@@ -67,17 +62,13 @@ Every month, the DSE team met (over Zoom) to hold a retrospective (retro, for sh
 
 I opened a templated Notion page and shared the link. Each section had subsections with every team member's name. We would spend 10 minutes typing bullet points in silence. Next, we'd go around the room and talk through each bullet point.
 
-Candor was vital, and achieving candor required psychological safety. We felt comfortable being critical and direct with each other because we had long established a culture of positive intent and mutual respect. This is cultivated by continually doing what you say, saying what you do, and acting in the best interests of your team (which ideally aligns with the best interests of the company). I saw team members provide direct, critical feedback to each other, then immediately act on it rather than get defensive. To me, this was excellent culture.
+I obtained permission to share retro notes with anyone else in the company. The Notion pages were accessible by anyone with a Prometheus login. I occasionally sent our notes with our CSO, CEO, or DSE Advisors so they had a sense of "boots on the ground", but most of the utility was within our team.
 
-I obtained permission from each team member to share the retro notes with anyone else in the company. The Notion pages were accessible by anyone with a Prometheus login. I occasionally shared the notes with our CSO, CEO, or DSE Advisors so they had a sense of "boots on the ground", but nobody else cared about our retro notes.
-
-Team members don't just want to "be heard". They want to see their managers act on their suggestions and solve problems. I heavily prioritized acting on what my reports shared with me under the "Bud" section. I also paid close attention to the causes of their "Thorns", 10% of which were technical challenges and 90% were other teams or external collaborators misbehaving.
-
-I eventually got in trouble when I criticized a superior by name in a retro note and shared the content with them. Rather than act on the feedback, they retaliated against the entire team from their position of authority. The death of trust quickly spelled the end of retros, and more generally, shifted the culture away from candor and toward secrecy. Thankfully, we were acquired not long thereafter.
+Your team members do not just want to "be heard". They want to see their managers act on their suggestions and solve problems. I prioritized acting on what I learned in retros. We changed many team norms - such as Git branch management - as a result.
 
 Retros are a powerful and fun tool for teams with a culture of candor, trust, critical feedback, and positive intent. If your corporate culture has issues with these factors, you have bigger problems that are not solved by a popular management framework or 1-on-1 template.
 
-Technical leaders can also do focused retros (sometimes morbidly called "post-mortems") after finishing a big sprint, technical milestone, or project. Pre-mortems are a fun variation where a project is kicked off by hypothesizing all the reasons it might fail.
+You can also do a focused retro (sometimes called "post-mortems") after finishing a big sprint, technical milestone, or project. Pre-mortems are a fun variation where a project is kicked off by hypothesizing the reasons it might fail.
 
 
 ## 3. Pay CROs, consultants, and vendors for deliverables, not time.
