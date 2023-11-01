@@ -41,11 +41,7 @@ For "Challenges", I surfaced issues that we needed leadership to help us solve, 
 
 For "Next Steps", I listed 2-3 upcoming milestones. I omitted future goals that were months away or abstract. I like accountability so I was precise with who owned each next step, and the date of expected completion.
 
-I realized (painfully late in my tenure) nobody else really cares about platforms, infrastructure, and capabilities. We found the best way to convey value of platform work was by connecting every bullet point in the digest to the relevant therapeutic program, and how the capability mattered for the top-line goal.
-
-For example, our Principal Software Engineer rewrote our genetic imputation pipeline to be 200x faster. This statistic alone is robust justification of the work if you are an engineer. But nobody else cared until they realized turnaround time from new sequenced samples to results was now 1 hour instead of 1 week. This much faster QC iteration time enabled us to find and correct several key errors in both the upstream sample handling process and the computational pipeline. This enabled us to achieve the desired statistical power for our CDx work related to our lead program.
-
-I emailed a link and also attached the exported PDF if readers preferred that, e.g., were on a plane flight without internet access.
+I learned nobody else cares about platforms, infrastructure, and capabilities. To convey value of platform work, we connected each "Win" to the relevant therapeutic program, and how the capability mattered for the top-line goal. For example, our Principal Software Engineer rewrote our genetic imputation pipeline to be 200x faster. Nobody cared until they realized turnaround time from new sequenced samples to results was now 1 hour instead of 1 week. This faster iteration time enabled us to find and correct several errors in the upstream sample handling process and the computational pipeline. Consequently, we achieved the desired statistical power for our lead program's CDx.
 
 At first, I wrote the entire digest, circulated to my reports for feedback, and sent it out. Over time, I delegated more and more of the digest to my reports. The topics also eventually stabilized into our ~5 platform-related goals. The digest became the channel for each goal owner to share progress with the company.
 
@@ -67,8 +63,6 @@ I obtained permission to share retro notes with anyone else in the company. The 
 Your team members do not just want to "be heard". They want to see their managers act on their suggestions and solve problems. I prioritized acting on what I learned in retros. We changed many team norms - such as Git branch management - as a result.
 
 Retros are a powerful and fun tool for teams with a culture of candor, trust, critical feedback, and positive intent. If your corporate culture has issues with these factors, you have bigger problems that are not solved by a popular management framework or 1-on-1 template.
-
-You can also do a focused retro (sometimes called "post-mortems") after finishing a big sprint, technical milestone, or project. Pre-mortems are a fun variation where a project is kicked off by hypothesizing the reasons it might fail.
 
 
 ## 3. Pay CROs, consultants, and vendors for deliverables, not time.
