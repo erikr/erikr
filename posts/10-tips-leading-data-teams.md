@@ -82,11 +82,13 @@ We used (and loved!) Notion for documentation, meeting notes, onboarding, etc., 
 
 To remedy this gap, we migrated work tracking into Notion. Every task had a link, every person had a view of the task table, all tasks had due dates, and the board could be viewed as a timeline with one click. If anyone at Prometheus wanted to know what Mark was working on, or what Sarah was blocked by, they could go to a Notion page and in a few clicks see the same content as anyone else.
 
-A pattern to avoid is to email or direct message someone a link to a Notion task and ask "What is the status of this?". Instead, leave a comment in the Notion page. Ben Balter at GitHub has a great post on [Why you should work asynchronously](https://ben.balter.com/2022/03/17/why-async/).
+A pattern to avoid is to email or direct message the question, "what is the status of X?". Instead, go to the Notion page for the task and leave a comment.
 
-Your org might use Jira, Asana, or Monday instead of Notion. The exact tool doesn't matter. What does matter is to get your entire team to track work in one place. No work lives outside of the app, and all work inside of the app is current.
+Your org might use Jira, Asana, or Monday instead of Notion. The exact tool doesn't matter. What matters is if your entire team tracks their work in the same place. No work lives outside of the app, and all work inside of the app is current.
 
-Tracking work in Notion is obviously superior to emailing around timelines in Powerpoint and tables in Excel. It aligns people without the pain of scheduling a meeting across three time zones. Yet, if you work in a biotech, you will encounter people unfamilar with this workflow who will ask you to share a slide with your team's timelines, or to provide a brief update via email or a live call. Unless you are the founder or CEO, you won't have the mandate of heaven required to change how people do their daily work. You can and should send them the Notion link. Gently educate. Listen, too. But don't forget you are all on the same team, and have empathy for people who have not yet seen the light. Sometimes the practical move is to screenshot your timeline, send them the  slide, and get back to building.
+Tracking work in Notion is obviously superior to emailing timelines in Powerpoint and tables in Excel. It aligns people without the pain of scheduling a meeting across three time zones. Yet, if you work in biotech, you will encounter people who will ask you to update a slide with timelines, or to provide a brief update via email. Unless you are the founder or CEO, you don't have the mandate of heaven required to change how people work. You can and should send them the Notion link. Gently educate. Listen, too. Don't forget you are all on the same team, and have empathy for people who have not yet seen the light. Sometimes the practical move is to screenshot your timeline, send them the slide, and get back to building.
+
+Ben Balter's post on [Why you should work asynchronously](https://ben.balter.com/2022/03/17/why-async/) is required reading for all technical leaders.
 
 
 ## 5. Establish intentional intentional communication and workflow norms, especially if your team is distributed.
