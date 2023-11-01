@@ -1,4 +1,5 @@
 ### Blog Posts
+[10 tips for leading data teams at a biotech](/posts/10-tips-leading-data-teams.md)  
 [New job at Prometheus](/posts/prometheus.md)  
 [How to give a great chalk talk](/posts/chalk-talk.md)  
 [Forge merges with Sling Health](/posts/forge.md)  
