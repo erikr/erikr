@@ -35,20 +35,18 @@ In March 2021, we went public (with the ticker `$RXDX`), announced positive phas
 
 Every two weeks I wrote and shared a "DSE Digest" to our VPs and C-suite. This cadence aligned with our sprint length and balanced speed with substance. I covered 5-7 topics per digest. For each topic, e.g., "Data ingestion and curation from Cedars-Sinai Medical Center", I summarized "Wins", "Challenges", and "Next Steps".
 
-For "Wins", highlight team members by name. This is an opportunity to highlight valuable work done by data scientists and engineers who rarely interface with the c-suite. This was especially important at Prometheus because the C-suite was on-site but our team was distributed.
+For "Wins", mention team members by name. This is an opportunity to highlight valuable work done by data scientists and engineers who rarely interact with the C-suite. This was important at Prometheus because the C-suite was on-site but our team was distributed.
 
-For "Challenges", I surfaced issues that we needed leadership to help us solve, such as a lack of resources or an unresponsive collaborator (especially if within our company). 
+For "Challenges", surface issues that you want leadership to be aware of, or better, help you solve. Examples include lack of resources, an unresponsive collaborator, or a decision that involves tradeoffs to another team.
 
 For "Next Steps", I listed 2-3 upcoming milestones. I omitted future goals that were months away or abstract. I like accountability so I was precise with who owned each next step, and the date of expected completion.
 
-I learned nobody else cares about platforms, infrastructure, and capabilities. To convey value of platform work, we connected each "Win" to the relevant therapeutic program, and how the capability mattered for the top-line goal. For example, our Principal Software Engineer rewrote our genetic imputation pipeline to be 200x faster. Nobody cared until they realized turnaround time from new sequenced samples to results was now 1 hour instead of 1 week. This faster iteration time enabled us to find and correct several errors in the upstream sample handling process and the computational pipeline. Consequently, we achieved the desired statistical power for our lead program's CDx.
+Nobody else cares about platforms, infrastructure, and capabilities. To convey value, connect each "Win" to the related therapeutic program and how the capability matters for the top-line goal. For example, our Principal Software Engineer rewrote our genetic imputation pipeline to be 200x faster. Nobody cared until they realized turnaround time from new sequenced samples to results was now 1 hour instead of 1 week. This enabled us to find and correct several errors in the upstream sample handling process and the computational pipeline. Consequently, we achieved the desired statistical power for our lead program's CDx.
 
 At first, I wrote the entire digest, circulated to my reports for feedback, and sent it out. Over time, I delegated more and more of the digest to my reports. The topics also eventually stabilized into our ~5 platform-related goals. The digest became the channel for each goal owner to share progress with the company.
 
 
 ## 2. Conduct monthly retrospectives with your team to reflect and learn.
-
-I first experienced this reflection / ritual / group therapy session at the Broad Institute as a collaborating member of the Machine Learning For Healthcare team, led by Puneet Batra. I immediately loved it, and later brough it to Prometheus.
 
 Every month, the DSE team met (over Zoom) to hold a retrospective (retro, for short). We covered three topics:
 
@@ -78,8 +76,17 @@ Retros are a powerful and fun tool for teams with a culture of candor, trust, cr
 - Call out bad vendor: never work with Genedata again
 
 
-## 4. Track work in a single source of truth (SSOT), and only reference that place.
-- The way you use the tool, e.g., the workflow, matters more than what specific tool you choose.
+## 4. Track and reference work in a single source of truth (SSOT)
+
+We used (and loved!) Notion for documentation, meeting notes, onboarding, etc., and GitHub Issues for tracking technical work. Tasks were categorized into `TODO`, `In Progress`, and `Done`. Every two weeks we opened the board, groomed the backlog, and synced on current priorities. However, the data scientists and data curators could not close issues via PRs since their deliverable was often solved without a pull request (PR). 
+
+To remedy this gap, we migrated work tracking into Notion. Every task had a link, every person had a view of the task table, all tasks had due dates, and the board could be viewed as a timeline with one click. If anyone at Prometheus wanted to know what Mark was working on, or what Sarah was blocked by, they could go to a Notion page and in a few clicks see the same content as anyone else.
+
+A pattern to avoid is to email or direct message someone a link to a Notion task and ask "What is the status of this?". Instead, leave a comment in the Notion page. Ben Balter at GitHub has a great post on [Why you should work asynchronously](https://ben.balter.com/2022/03/17/why-async/).
+
+Your org might use Jira, Asana, or Monday instead of Notion. The exact tool doesn't matter. What does matter is to get your entire team to track work in one place. No work lives outside of the app, and all work inside of the app is current.
+
+Tracking work in Notion is obviously superior to emailing around timelines in Powerpoint and tables in Excel. It aligns people without the pain of scheduling a meeting across three time zones. Yet, if you work in a biotech, you will encounter people unfamilar with this workflow who will ask you to share a slide with your team's timelines, or to provide a brief update via email or a live call. Unless you are the founder or CEO, you won't have the mandate of heaven required to change how people do their daily work. You can and should send them the Notion link. Gently educate. Listen, too. But don't forget you are all on the same team, and have empathy for people who have not yet seen the light. Sometimes the practical move is to screenshot your timeline, send them the  slide, and get back to building.
 
 
 ## 5. Establish intentional intentional communication and workflow norms, especially if your team is distributed.
