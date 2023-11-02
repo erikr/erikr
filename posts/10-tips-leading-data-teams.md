@@ -58,9 +58,9 @@ I opened a templated Notion page and shared the link. Each section had subsectio
 
 My reports gave me permission to share our retro notes with anyone else in the company. The Notion pages were accessible by anyone with a Prometheus login. I occasionally sent retro notes to our CSO, CEO, or DSE Advisors so they had a sense of "boots on the ground", but most of the utility was within our team.
 
-Your team members do not just want to "be heard". They want to see their managers act on their suggestions and solve problems. I prioritized acting on what I learned in retros. We changed many team norms - such as Git branch management - as a result.
+Your team members do not just want to "be heard". They want their boss to act on their suggestions and solve problems. I prioritized acting on what I learned in retros. We changed many team norms - such as Git branch management - as a result.
 
-Retros are a powerful and fun tool for teams with a culture of candor, trust, critical feedback, and positive intent. If your corporate culture has issues with these factors, you have bigger problems that are not solved by a popular management framework or 1-on-1 template.
+Retros are a powerful and fun tool for teams with a culture of candor, trust, critical feedback, and positive intent. If your corporate culture is lacking in these areas, you have bigger problems that won't be solved by a popular management framework or 1-on-1 template.
 
 
 ## 3. Pay CROs, consultants, and vendors for deliverables, not time.
