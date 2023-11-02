@@ -31,7 +31,12 @@ In March 2021, we IPO'd, announced positive phase 1 data, and expanded indicatio
 > To add when draft is finalized.
 
 
-## 1. Inform the company of your team's progress via a biweekly digest
+## 1. Biotech cares about scientific or clinical results, not platforms. 
+
+Nobody else cares about platforms or infra. To convey value, connect each "Win" to the related therapeutic program and how the capability helps the top-line goal. For example, an engineer rewrote our genetic imputation pipeline to be 200x faster. Nobody cared until they realized turnaround time from new sequenced samples to results was now 1 hour instead of 1 week. This enabled us to find and correct several errors in the upstream sample handling and downstream imputation process. Consequently, we achieved the desired statistical power for our lead program CDx.
+
+
+## 2. Inform the company of your team's progress via a biweekly digest.
 
 Every two weeks I wrote and shared a "DSE Digest" to our VPs and C-suite. This cadence aligned with our sprint length and balanced speed with substance. I covered 5-7 topics per digest. For each topic, e.g., "Data ingestion and curation from Cedars-Sinai Medical Center", I summarized "Wins", "Challenges", and "Next Steps".
 
@@ -41,12 +46,10 @@ For "Challenges", surface issues that you want leadership to be aware of, or bet
 
 For "Next Steps", I listed 2-3 upcoming milestones. I omitted future goals that were months away or abstract. I like accountability so I was precise with who owned each next step, and the date of expected completion.
 
-Nobody else cares about platforms or infra. To convey value, connect each "Win" to the related therapeutic program and how the capability helps the top-line goal. For example, an engineer rewrote our genetic imputation pipeline to be 200x faster. Nobody cared until they realized turnaround time from new sequenced samples to results was now 1 hour instead of 1 week. This enabled us to find and correct several errors in the upstream sample handling and downstream imputation process. Consequently, we achieved the desired statistical power for our lead program CDx.
-
 Initially I wrote the digest, circulated to my team for feedback, and sent it out. Over time, I delegated more of the digest. The topics also stabilized into our ~5 platform-related goals. The digest became the channel for each goal owner to share progress with the company.
 
 
-## 2. Conduct monthly retrospectives with your team to reflect and learn.
+## 3. Conduct monthly retrospectives with your team to reflect and learn.
 
 Every month, the DSE team met (over Zoom) to hold a retrospective (retro, for short). We covered three topics:
 
@@ -63,7 +66,7 @@ Your team members do not just want to "be heard". They want their boss to act on
 Retros are a powerful and fun tool for teams with a culture of candor, trust, critical feedback, and positive intent. If your corporate culture is lacking in these areas, you have bigger problems that won't be solved by a popular management framework or 1-on-1 template.
 
 
-## 3. Pay CROs, consultants, and vendors for deliverables, not time.
+## 4. Pay CROs, consultants, and vendors for deliverables, not time.
 - Build vs. Buy
 - How to find CROs, consultants
 - RFP-style super explicit and precise projects
@@ -76,7 +79,7 @@ Retros are a powerful and fun tool for teams with a culture of candor, trust, cr
 - Call out bad vendor: never work with Genedata again
 
 
-## 4. Track and reference work in a single source of truth. 
+## 5. Track and reference work in a single source of truth. 
 
 We used (and loved!) Notion for documentation, meeting notes, onboarding, etc., and GitHub Issues for tracking technical work. Tasks were categorized into `TODO`, `In Progress`, and `Done`. Every two weeks we opened the board, groomed the backlog, and synced on current priorities. However, the data scientists and data curators could not close issues via PRs since their deliverable was often solved without a pull request (PR). 
 
@@ -89,10 +92,6 @@ Your org might use Jira, Asana, or Monday instead of Notion. The exact tool does
 Tracking work in Notion beats emailing timelines in Powerpoint and tables in Excel. It aligns people without the pain of scheduling a meeting across time zones. Yet, if you work in biotech, you will encounter people who will ask you to update a slide with timelines, or to provide an update via email. Unless you are the founder or CEO, you don't have the mandate required to change how people work. They are trying to accomplish something, and you are on the same (broader) team. Screenshot your timeline and send them the slide they need. But also send them the Notion link, and take the opportunity to gently educate. Have empathy for those who have not yet seen the light.
 
 Ben Balter's post on [Why you should work asynchronously](https://ben.balter.com/2022/03/17/why-async/) is required reading for all technical leaders.
-
-
-## 5. Learn and follow good practices for hiring talent.
-- Ask the same questions, ref checks, view past work, select builders, no luck hiring from pure tech, hybrids good, one off vs craftsmen
 
 
 ## 6. Develop a culture of critical feedback, candor, and positive regard.
