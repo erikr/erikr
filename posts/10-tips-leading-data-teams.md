@@ -90,24 +90,14 @@ Tracking work in Notion is obviously superior to emailing timelines in Powerpoin
 
 Ben Balter's post on [Why you should work asynchronously](https://ben.balter.com/2022/03/17/why-async/) is required reading for all technical leaders.
 
-
-## 5. Establish intentional intentional communication and workflow norms, especially if your team is distributed.
-- Async
-- Tracking work
-- Meeting norms, a/v, equipment
-- Conference rooms, working with on-site people
-- Terminology of "San Diego" vs "Remote" not helpful
-- Norms are set by the C-suite
-
-
-## 6. Follow good practices for hiring talent, and be confident you will improve
+## 5. Follow good practices for hiring talent, and be confident you will improve
 - Ask the same questions, ref checks, view past work, select builders, no luck hiring from pure tech, hybrids good, one off vs craftsmen
 
 
-## 7. Develop a culture of critical feedback, candor, and positive regard.
+## 6. Develop a culture of critical feedback, candor, and positive regard.
 
 
-## 8. Define overloaded terminology when you work with people in different disciplines.
+## 7. Define overloaded terminology when you work with people in different disciplines.
 - Technical people call input data "data", and outputs of computational manipulations "output" or "results"
 - Biotech people in CSO or CMOs orgs call results "data"; perhaps they call input data "raw data"?
 - Technical people call an entity or object an "artifact". Scientists call noise or error "artifact".
@@ -116,10 +106,10 @@ Ben Balter's post on [Why you should work asynchronously](https://ben.balter.com
 - 
 
 
-## 9. Build an advisory board of experts to offset your weaknesses
+## 8. Build an advisory board of experts to offset your weaknesses
 
 
-## 10. Document data and code (need to make more powerful)
+## 9. Document data and code (need to make more powerful)
 - Document the details of data provenance, workflow, etc.
 - If you don't know the details, don't assume it is documented.
 - If it isn't documented, don't assume other people know.
@@ -128,7 +118,7 @@ Ben Balter's post on [Why you should work asynchronously](https://ben.balter.com
 - Engineers and data scientists did not join your team so they could document data provenance.
 
 
-## 11. Expect legacy systems, file formats, and thinking.
+## 10. Expect legacy systems, file formats, and thinking.
 - Many people in biotech are default private vs default public. Closed-source vs open-source. Secrets, IP, risk management, compliance vs accessibility, openness, sharing.
 - In a dysfunctional corporate bureaucracy, information is power, so naturally people desire control over the flow of information.
 - Examples: engineer tags a Comp Bio colleague in a GitHub comment, never hears back. Asks for code, receives a Dropbox link or email instead of a link to a repo. Commit frequency substantially high in software team, low in Comp Bio team.
