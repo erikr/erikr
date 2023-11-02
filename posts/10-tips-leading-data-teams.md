@@ -56,7 +56,7 @@ Every month, the DSE team met (over Zoom) to hold a retrospective (retro, for sh
 
 I opened a templated Notion page and shared the link. Each section had subsections with every team member's name. We would spend 10 minutes typing bullet points in silence. Next, we'd go around the room and talk through each bullet point.
 
-I obtained permission to share retro notes with anyone else in the company. The Notion pages were accessible by anyone with a Prometheus login. I occasionally sent our notes with our CSO, CEO, or DSE Advisors so they had a sense of "boots on the ground", but most of the utility was within our team.
+My reports gave me permission to share our retro notes with anyone else in the company. The Notion pages were accessible by anyone with a Prometheus login. I occasionally sent retro notes to our CSO, CEO, or DSE Advisors so they had a sense of "boots on the ground", but most of the utility was within our team.
 
 Your team members do not just want to "be heard". They want to see their managers act on their suggestions and solve problems. I prioritized acting on what I learned in retros. We changed many team norms - such as Git branch management - as a result.
 
