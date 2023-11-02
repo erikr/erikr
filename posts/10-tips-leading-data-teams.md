@@ -12,7 +12,7 @@ tags:
 
 ## You
 
-You are a technical leader at a biotech startup. Perhaps your job title is Director, or VP of Data Science / Machine Learning / Engineering, or CTO / CDO. Your company wants to develop a "platform" or "engine", an exciting opportunity that is now your responsibility. This post is for you. Here I share ten tips that I hope you find useful on your path to success.
+You are a technical leader at a biotech startup. Your title is Director, or VP of Data Science / Machine Learning / Engineering, or CTO / CDO. Your company wants to develop a "platform" or "engine", an exciting opportunity that is now your responsibility. This post is for you. Here I share ten tips that I wish I had when I started, and I hope you find useful. 
 
 
 ## Background
@@ -106,7 +106,7 @@ Ben Balter's post on [Why you should work asynchronously](https://ben.balter.com
 - Technical people call a sequence of computational manipulations a "pipeline".
 
 
-## 8. Build an advisory board of experts to offset your weaknesses.
+## 8. Build an advisory board of experts to offset your weaknesses
 
 
 ## 9. Document data and code (need to make more powerful).
