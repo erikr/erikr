@@ -108,11 +108,11 @@ Technical people think a platform is ... well, there is no definition, so the la
 
 ## 8. Build an advisory board you can learn and grow from.
 
-There are many smart, experienced, and supportive people with expertise in data science and software engineering within the context of biotech. Maybe one such individual is your boss, the CTO. I was not so lucky given our organization did not have a CTO, so I found advisors outside of my company to mentor and develop me. They had titles like "Senior Principal", "Chief Data Officer", or "VP Data Science" and were people I looked up to, learned from in past roles, or were accomplishing what I aspired to do some day.
+There are many smart, experienced, and supportive people with expertise in data science and software engineering within the context of biotech. Maybe you report to the CTO and have a board member or collaborator with a storied history at the intersection of technology and life science. I was not in that type of situation, so I found advisors outside of my company to mentor and develop me. They had titles like "Senior Principal", "Chief Data Officer", or "VP Data Science" and were people I looked up to, learned from in past roles, or were accomplishing what I aspired to do some day.
 
 To maximize the value they could provide, I needed the ability to speak freely about our company's work. To enable such candor, we negotiated the right balance between compensation and a mutual NDA. Moreover, advisors should (in theory) be discrete professionals. However, my discussions rarely broached sensitive IP topics. Biotechs are most secretive around IP in the form of drug targets and drug candidates. Data science platforms at a biotech tend to be considered less "secret sauce" and more "the pot that cooks the secret sauce". The one exception was our CDx; we were careful with who we discussed it with and how we discussed it.
 
-In hindsight, I wish I approached my advisors more like a medical doctor engages specialists -- [by calling a consult](https://www.boardvitals.com/blog/calling-a-consult/). Rather than an instructured quarterly catchup, I should have asked more specific questions and provided necessary information and context.
+In hindsight, I wish I approached my advisors more like a medical doctor engages specialists -- [by calling a consult](https://www.boardvitals.com/blog/calling-a-consult/). Rather than an unstructured quarterly catchup, I should have asked more specific questions and provided necessary information and context.
 
 Bad: "What do you think about biobanks? Would love some advice."
 
