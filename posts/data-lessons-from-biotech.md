@@ -93,15 +93,15 @@ Ben Balter's post on [Why you should work asynchronously](https://ben.balter.com
 
 ## 7. Define words, norms, and workflow when you work with biotech people.
 
-Biotechs employ more than technical people and scientists. There are also accountants, manufacturing specialists, lab managers, lawyers, medical affairs specialists, etc. It is a naive mistake to think you have a shared set of words, norms, and workflow. The experiences that correct this mistake are surprisingly painful.
+Biotechs employ scientists, accountants, manufacturing specialists, lab managers, lawyers, medical affairs specialists, software developers, etc. It is a naive mistake to think everyone shares an understanding of words, norms, and workflow. The experiences that correct this mistake are surprisingly painful.
 
-Technical people call input data "data", and outputs of computational manipulations "output" or "results". Biotech people in CSO or CMOs orgs call results "data".
+Technical people call input data "data", and outputs of computational manipulations "output" or "results". Biotech people call results "data".
 
 Technical people call an entity or object an "artifact". Biotech people call noise or error "artifact".
 
 Technical people call a sequence of computational manipulations a "pipeline". Biotech people call a portfolio of therapeutic programs (e.g., drug candidates) a "pipeline".
 
-Technical people think a deliverable is a pull requests describing a new or changed capability. Biotech people think a deliverable is a Powerpoint slide or deck describing a scientific result.
+Technical people think a deliverable is a pull request describing a new or changed capability. Biotech people think a deliverable is a Powerpoint slide or deck describing a scientific result.
 
 Technical people think a platform is ... well, there is no definition, so the lack of clarity around this useless word is almost expected. But I noticed technical people thought about scalable software ("our platform of data and apps") whereas biotech people thought about expert human labor ("our platform of immunologists who review literature for new targets").
 
