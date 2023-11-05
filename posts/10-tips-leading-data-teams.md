@@ -1,13 +1,8 @@
 ---
 layout: post
-title: 10 Tips for Leading Data Teams in Biotech
+title: What I learned about leading a data & software team in biotech
 tags: 
 ---
-
-
-> This blog post is a work in progress. Need to cut one topic to bring 11 down to 10.
-
-> Alternate title: "How to operate as a technical leader in a biotech"
 
 
 ## You
@@ -66,17 +61,19 @@ Your team members do not just want to "be heard". They want their boss to act on
 Retros are a powerful and fun tool for teams with a culture of candor, trust, critical feedback, and positive intent. If your corporate culture is lacking in these areas, you have bigger problems that won't be solved by a popular management framework or 1-on-1 template.
 
 
-## 4. Pay CROs, consultants, and vendors for deliverables, not time.
-- Build vs. Buy
-- How to find CROs, consultants
-- RFP-style super explicit and precise projects
-- Start with pilot
-- Align on what good and done is
-- Align on how you want them to work
-- Overspecify for your first engagement
-- How to manage and delegate; take foot off throat over time as you build trust
-- Crack the whip, push them hard, demand high quality work
-- Call out bad vendor: never work with Genedata again
+## 4. Buy (products or consulting services) if you are a biotech. Build if you are a tech firm.
+
+In the early days, we explored a vision of creating the world's largest and best-curated IBD database, alongside novel computational tools to support new target discovery. This ambitious data science platform would require a larger investment than our initial team of five FTEs, and a longer time horizon to create value than what we originally planned.
+
+To adddress this mismatch, we focused the vision. The platform would support target validation, MoA studies, and CDx development. We also decided to engage consultants to help us curate data, develop bioinformatics pipelines (e.g., genomic imputation), and build our CDx pipeline (e.g., supervised ML to find SNPs associated with proxies of treatment response).
+
+In hindsight, this path was a better strategic fit with our eventual outcome to be acquired after reporting strong phase 2 study results. However, we could have better aligned our branding and messaging with the reality that we were a biotech with data science and engineering interests, not a "techbio" firm.
+
+As we worked with consultants, we learned lessons the hard way that we wish we knew earlier. Initially, we loosely defined project scopes to be a flexible partner. We assessed competitors and signed with the one that looked best on paper. We gave regular feedback so they could converge on our preferred working style. We were gentle and understanding if they missed a deadline or had resource constraints. But then we got smarter and developed some process.
+
+Later, we provided detailed project proposals with defined milestones and deliverables. We realized what we thought was overspecification was perhaps just enough information, especially for a new consultant's first engagement. We conducted head-to-head (paid) pilots to compare competitors by experiencing actual collaboration. We explicitly defined how we wanted them to work with us -- commit code in GitHub, track work in issues, etc. We held consultants accountable to agreed-upon deliverables, and quickly (but professionally) parted ways if they failed. When evaluating new consultants, we heavily weighed compatibility of working styles, cadence, and energy. We realized brand was not as predictive as experience with specific individuals.
+
+We worked with several superb partners such as Recursis, Rancho, Bridge Informatics, and Manifold. We learned excellence is expensive and worth the money. Bad consultants end up more expensive by wasting your time and giving you a poor experience. I will never work again with, nor can I recommend, Genedata.
 
 
 ## 5. Track and reference work in a single source of truth. 
@@ -94,18 +91,34 @@ Tracking work in Notion beats emailing timelines in Powerpoint and tables in Exc
 Ben Balter's post on [Why you should work asynchronously](https://ben.balter.com/2022/03/17/why-async/) is required reading for all technical leaders.
 
 
-## 6. Develop a culture of critical feedback, candor, and positive regard.
+## 7. Define words, norms, and workflow when you work with biotech people.
+
+Biotechs employ more than technical people and scientists. There are also accountants, manufacturing specialists, lab managers, lawyers, medical affairs specialists, etc. It is a naive mistake to think you have a shared set of words, norms, and workflow. The experiences that correct this mistake are surprisingly painful.
+
+Technical people call input data "data", and outputs of computational manipulations "output" or "results". Biotech people in CSO or CMOs orgs call results "data".
+
+Technical people call an entity or object an "artifact". Biotech people call noise or error "artifact".
+
+Technical people call a sequence of computational manipulations a "pipeline". Biotech people call a portfolio of therapeutic programs (e.g., drug candidates) a "pipeline".
+
+Technical people think a deliverable is a pull requests describing a new or changed capability. Biotech people think a deliverable is a Powerpoint slide or deck describing a scientific result.
+
+Technical people think a platform is ... well, there is no definition, so the lack of clarity around this useless word is almost expected. But I noticed technical people thought about scalable software ("our platform of data and apps") whereas biotech people thought about expert human labor ("our platform of immunologists who review literature for new targets").
 
 
-## 7. Define overloaded terminology when you work with biotech people.
-- Technical people call input data "data", and outputs of computational manipulations "output" or "results"
-- Biotech people in CSO or CMOs orgs call results "data"; perhaps they call input data "raw data"?
-- Technical people call an entity or object an "artifact". Scientists call noise or error "artifact".
-- Biotech people call a portfolio of therapeutic programs (e.g., drug candidates) a "pipeline".
-- Technical people call a sequence of computational manipulations a "pipeline".
+## 8. Build an advisory board you can learn and grow from.
 
+There are many smart, experienced, and supportive people with expertise in data science and software engineering within the context of biotech. Maybe one such individual is your boss, the CTO. I was not so lucky given our organization did not have a CTO, so I found advisors outside of my company to mentor and develop me. They had titles like "Senior Principal", "Chief Data Officer", or "VP Data Science" and were people I looked up to, learned from in past roles, or were accomplishing what I aspired to do some day.
 
-## 8. Build an advisory board of experts to offset your weaknesses
+To maximize the value they could provide, I needed the ability to speak freely about our company's work. To enable such candor, we negotiated the right balance between compensation and a mutual NDA. Moreover, advisors should (in theory) be discrete professionals. However, my discussions rarely broached sensitive IP topics. Biotechs are most secretive around IP in the form of drug targets and drug candidates. Data science platforms at a biotech tend to be considered less "secret sauce" and more "the pot that cooks the secret sauce". The one exception was our CDx; we were careful with who we discussed it with and how we discussed it.
+
+In hindsight, I wish I approached my advisors more like a medical doctor engages specialists -- [by calling a consult](https://www.boardvitals.com/blog/calling-a-consult/). Rather than an instructured quarterly catchup, I should have asked more specific questions and provided necessary information and context.
+
+Bad: "What do you think about biobanks? Would love some advice."
+
+Better: "We must accomplish X scientific goal by 2024Q2. I think doing Y is possible with Biobanks Z1, Z2, or Z3. We only have budget and time to access one biobank. Our concerns are [insert list here]. I think we should proceed with Z2 because [reasons]. What else should I consider?"
+
+I also wish I convened my entire advisory board together, in the same room (or at least Zoom call). Smart people feed off each other's energy and sometimes stronger ideas emerge from the interactions.
 
 
 ## 9. Document data and code (need to make more powerful).
