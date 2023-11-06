@@ -4,6 +4,7 @@ title: What I learned about leading a data & software team in biotech
 tags: 
 ---
 
+> Reading time: 10 minutes
 
 ## You
 
@@ -26,14 +27,14 @@ In March 2021, we IPO'd, announced positive phase 1 data, and expanded indicatio
 > To add when draft is finalized.
 
 
-## 1. Biotech cares about scientific or clinical results, not platforms. 
+## Remember biotechs care about scientific or clinical results, not platforms. 
 
-Nobody else cares about platforms or infra. To convey value, connect each "Win" to the related therapeutic program and how the capability helps the top-line goal. For example, an engineer rewrote our genetic imputation pipeline to be 200x faster. Nobody cared until they realized turnaround time from new sequenced samples to results was now 1 hour instead of 1 week. This enabled us to find and correct several errors in the upstream sample handling and downstream imputation process. Consequently, we achieved the desired statistical power for our lead program CDx.
+Nobody else cares about your data science / computational platform. To convey value, connect each "Win" to the related therapeutic program and how the capability helps the top-line goal. For example, an engineer rewrote our genetic imputation pipeline to be 200x faster. Nobody cared until they realized turnaround time from new sequenced samples to results was now 1 hour instead of 1 week. This enabled us to find and correct several errors in the upstream sample handling and downstream imputation process. Consequently, we achieved the desired statistical power for our lead program CDx.
 
 
-## 2. Inform the company of your team's progress via a biweekly digest.
+## Share your team's progress via a biweekly digest.
 
-Every two weeks I wrote and shared a "DSE Digest" to our VPs and C-suite. This cadence aligned with our sprint length and balanced speed with substance. I covered 5-7 topics per digest. For each topic, e.g., "Data ingestion and curation from Cedars-Sinai Medical Center", I summarized "Wins", "Challenges", and "Next Steps".
+Every two weeks I wrote and shared a "DSE Digest" to our VPs and C-suite. This cadence aligned with our sprint length and balanced speed with substance. I covered 5-7 topics per digest, and eventually we used our corporate goals as topics. For each topic, e.g., "Data ingestion and curation from Cedars-Sinai Medical Center", I summarized "Wins", "Challenges", and "Next Steps".
 
 For "Wins", mention team members by name. This is an opportunity to highlight valuable work done by data scientists and engineers who rarely interact with the C-suite. This was important at Prometheus because the C-suite was on-site but our team was distributed.
 
@@ -41,10 +42,10 @@ For "Challenges", surface issues that you want leadership to be aware of, or bet
 
 For "Next Steps", I listed 2-3 upcoming milestones. I omitted future goals that were months away or abstract. I like accountability so I was precise with who owned each next step, and the date of expected completion.
 
-Initially I wrote the digest, circulated to my team for feedback, and sent it out. Over time, I delegated more of the digest. The topics also stabilized into our ~5 platform-related goals. The digest became the channel for each goal owner to share progress with the company.
+Initially I wrote the digest, circulated to my team for feedback, and sent it out. Over time, I delegated more.
 
 
-## 3. Conduct monthly retrospectives with your team to reflect and learn.
+## Conduct monthly retrospectives with your team to reflect and learn.
 
 Every month, the DSE team met (over Zoom) to hold a retrospective (retro, for short). We covered three topics:
 
@@ -61,22 +62,24 @@ Your team members do not just want to "be heard". They want their boss to act on
 Retros are a powerful and fun tool for teams with a culture of candor, trust, critical feedback, and positive intent. If your corporate culture is lacking in these areas, you have bigger problems that won't be solved by a popular management framework or 1-on-1 template.
 
 
-## 4. Buy (products or consulting services) if you are a biotech. Build if you are a tech firm.
+## Buy products or consulting services if you are a biotech. Build if you are a tech firm.
 
-In the early days, we explored a vision of creating the world's largest and best-curated IBD database, alongside novel computational tools to support new target discovery. This ambitious data science platform would require a larger investment than our initial team of five FTEs, and a longer time horizon to create value than what we originally planned.
+Your decision to build versus buy depends on how your firm generates value, what you promised your investors, who you hired, and the culture you already built. We built a lean, focused platform and bought assistance.
 
-To adddress this mismatch, we focused the vision. The platform would support target validation, MoA studies, and CDx development. We also decided to engage consultants to help us curate data, develop bioinformatics pipelines (e.g., genomic imputation), and build our CDx pipeline (e.g., supervised ML to find SNPs associated with proxies of treatment response).
+In the early days, we explored a vision of creating the world's largest and best-curated IBD database, alongside novel computational tools to support new target discovery. This ambition would require a larger investment and more time than originally planned.
+
+To adddress this mismatch, we reduced scope. The platform would support target validation, MoA studies, and CDx development. We also engaged consultants to help us curate data, develop bioinformatics pipelines (e.g., genomic imputation), and build our CDx pipeline (e.g., supervised ML to find SNPs associated with proxies of treatment response).
 
 In hindsight, this path better fit our eventual outcome. However, it was a tough reality checkfor me. We could have better aligned our branding to emphasize we were a biotech with data science and engineering interests, not a "techbio" firm. Or maybe it was clear to everyone else and I was in my own waking dream.
 
-As we worked with consultants, we learned lessons the hard way that we wish we knew earlier. Initially, we loosely defined project scopes to be a flexible partner. We assessed competitors and signed with the one that looked best on paper. We gave regular feedback so they could converge on our preferred working style. We were gentle and understanding if they missed a deadline or had resource constraints. But then we got smarter and developed some process.
+As we worked with consultants, we learned lessons we wish we knew earlier. Initially, we loosely defined project scopes to be a flexible partner. We assessed competitors and signed with the one that looked best on paper. We gave regular feedback so they could converge on our preferred working style. We were gentle and understanding if they missed a deadline or had resource constraints. But then we got smarter and developed some process.
 
-Later, we provided detailed project proposals with defined milestones and deliverables. We realized what we thought was overspecification was perhaps just enough information, especially for a new consultant's first engagement. We conducted head-to-head (paid) pilots to compare competitors via lived experience. We defined how we wanted them to work with us -- commit code in GitHub, track work in issues, etc. We held consultants accountable to agreed-upon deliverables and parted ways if they failed. When evaluating new consultants, we indexed on compatibility of working style, cadence, and energy. We learned brand was less predictive than experience with specific individuals.
+Later, we provided detailed project proposals and defined milestones. We conducted head-to-head (paid) pilots to compare competitors. We defined *how* we wanted them to work with us -- commit code in GitHub, track work in issues, etc. We held consultants accountable to commitments and parted ways if they failed. When evaluating new consultants, we indexed on compatibility of working style, tech stack, and energy.
 
-We worked with several superb partners such as Recursis, Rancho, Bridge Informatics, and Manifold. We learned excellence is expensive and worth the money. Bad consultants end up more expensive by wasting your time and giving you a poor experience. I recommend avoiding Genedata.
+We worked with superb partners such as Recursis, Rancho, Bridge Informatics, Code Ocean, and Manifold. Working with the best people is expensive but worth every cent. Bad consultants end up more expensive by wasting your time and patience. I recommend avoiding Genedata.
 
 
-## 5. Track and reference work in a single source of truth. 
+## Track and reference work in a single source of truth. 
 
 We used (and loved!) Notion for documentation, meeting notes, onboarding, etc., and GitHub Issues for tracking technical work. Tasks were categorized into `TODO`, `In Progress`, and `Done`. Every two weeks we opened the board, groomed the backlog, and synced on current priorities. However, the data scientists and data curators could not close issues via PRs since their deliverable was often solved without a pull request (PR). 
 
@@ -86,12 +89,12 @@ A pattern to avoid is to email or direct message the question, "what is the stat
 
 Your org might use Jira, Asana, or Monday instead of Notion. The exact tool doesn't matter. What matters is if your entire team tracks their work in the same place. No work lives outside of the app, and all work inside of the app is current.
 
-Tracking work in Notion beats emailing timelines in Powerpoint and tables in Excel. It aligns people without the pain of scheduling a meeting across time zones. Yet, if you work in biotech, you will encounter people who will ask you to update a slide with timelines, or to provide an update via email. Unless you are the founder or CEO, you don't have the mandate required to change how people work. They are trying to accomplish something, and you are on the same (broader) team. Screenshot your timeline and send them the slide they need. But also send them the Notion link, and take the opportunity to gently educate. Have empathy for those who have not yet seen the light.
+Tracking work in Notion beats emailing timelines in Powerpoint and tables in Excel. It aligns people without the pain of scheduling a meeting across time zones. Yet, if you work in biotech, you will encounter people who will request a slide with timelines and updates via email. Unless you are the founder or CEO, you don't have the mandate to change how people work. They are trying to accomplish something Screenshot your timeline and send them the slide they need. But also send them the Notion link and gently educate. Have empathy for those who have not yet seen the light.
 
-Ben Balter's post on [Why you should work asynchronously](https://ben.balter.com/2022/03/17/why-async/) is required reading for all technical leaders.
+Ben Balter's post on [Why you should work asynchronously](https://ben.balter.com/2022/03/17/why-async/) is required reading for technical leaders.
 
 
-## 7. Define words, norms, and workflow when you work with biotech people.
+## Define words, norms, and workflow when you work with biotech people.
 
 Biotechs employ scientists, accountants, manufacturing specialists, lab managers, lawyers, medical affairs specialists, software developers, etc. It is a naive mistake to think everyone shares an understanding of words, norms, and workflow. The experiences that correct this mistake are surprisingly painful.
 
@@ -106,31 +109,27 @@ Technical people think a deliverable is a pull request describing a new or chang
 Technical people think a platform is ... well, there is no definition, so the lack of clarity around this useless word is almost expected. But I noticed technical people thought about scalable software ("our platform of data and apps") whereas biotech people thought about expert human labor ("our platform of immunologists who review literature for new targets").
 
 
-## 8. Build an advisory board you can learn and grow from.
+## Build an advisory board you can learn and grow from.
 
 There are many smart, experienced, and supportive people with expertise in data science and software engineering within the context of biotech. Maybe you report to the CTO and have a board member or collaborator with a storied history at the intersection of technology and life science. I was not in that type of situation, so I found advisors outside of my company to mentor and develop me. They had titles like "Senior Principal", "Chief Data Officer", or "VP Data Science" and were people I looked up to, learned from in past roles, or were accomplishing what I aspired to do some day.
 
-To maximize the value they could provide, I needed the ability to speak freely about our company's work. To enable such candor, we negotiated the right balance between compensation and a mutual NDA. Moreover, advisors should (in theory) be discrete professionals. However, my discussions rarely broached sensitive IP topics. Biotechs are most secretive around IP in the form of drug targets and drug candidates. Data science platforms at a biotech tend to be considered less "secret sauce" and more "the pot that cooks the secret sauce". The one exception was our CDx; we were careful with who we discussed it with and how we discussed it.
+To maximize the value they could provide, I needed to speak freely about our company's work. To enable candor, we negotiated the right balance between compensation and a mutual NDA. Moreover, advisors should be discrete professionals. However, my discussions rarely broached sensitive IP.
 
-In hindsight, I wish I approached my advisors more like a medical doctor engages specialists -- [by calling a consult](https://www.boardvitals.com/blog/calling-a-consult/). Rather than an unstructured quarterly catchup, I should have asked more specific questions and provided necessary information and context.
+Biotechs are most secretive of their drug targets, candidates, and in our case, companion diagnostics. Data science platforms at a biotech tend to be considered less "secret sauce" and more "the pot that cooks the secret sauce".
+
+In hindsight, I wish I approached my advisors like a medical doctor engages specialists -- [by calling a consult](https://www.boardvitals.com/blog/calling-a-consult/). Rather than an unstructured quarterly catchup, I should have asked more specific questions and provided necessary information and context.
 
 Bad: "What do you think about biobanks? Would love some advice."
 
 Better: "We must accomplish X scientific goal by 2024Q2. I think doing Y is possible with Biobanks Z1, Z2, or Z3. We only have budget and time to access one biobank. Our concerns are [insert list here]. I think we should proceed with Z2 because [reasons]. What else should I consider?"
 
-I also wish I convened my entire advisory board together, in the same room (or at least Zoom call). Smart people feed off each other's energy and sometimes stronger ideas emerge from the interactions.
+I also wish I convened the entire DSE advisory board in the same room (or at least Zoom call). Smart people feed off each other's energy and stronger ideas can emerge from the interactions.
 
 
-## 9. Document data and code (need to make more powerful).
-- Document the details of data provenance, workflow, etc.
-- If you don't know the details, don't assume it is documented.
-- If it isn't documented, don't assume other people know.
-- If someone knows one aspect, don't assume they or anyone else knows the entire process.
-- Sometimes the necessary work is to sit in a room for 7 hours, ask a thousand questions, and document every step of what is going on.
-- Engineers and data scientists did not join your team so they could document data provenance.
+## Expect legacy systems, file formats, and thinking.
 
+> Still in progress.
 
-## 10. Expect legacy systems, file formats, and thinking.
 - Many people in biotech are default private vs default public. Closed-source vs open-source. Secrets, IP, risk management, compliance vs accessibility, openness, sharing.
 - In a dysfunctional corporate bureaucracy, information is power, so naturally people desire control over the flow of information.
 - Examples: engineer tags a Comp Bio colleague in a GitHub comment, never hears back. Asks for code, receives a Dropbox link or email instead of a link to a repo. Commit frequency substantially high in software team, low in Comp Bio team.
