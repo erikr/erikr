@@ -27,7 +27,7 @@ In March 2021, we IPO'd, announced positive phase 1 data, and expanded indicatio
 > To add when draft is finalized.
 
 
-## Remember biotechs care about scientific or clinical results, not platforms. 
+## Biotechs care about scientific or clinical results, not platforms. 
 
 Nobody else cares about your data science / computational platform. To convey value, connect each "Win" to the related therapeutic program and how the capability helps the top-line goal. For example, an engineer rewrote our genetic imputation pipeline to be 200x faster. Nobody cared until they realized turnaround time from new sequenced samples to results was now 1 hour instead of 1 week. This enabled us to find and correct several errors in the upstream sample handling and downstream imputation process. Consequently, we achieved the desired statistical power for our lead program CDx.
 
@@ -62,7 +62,7 @@ Your team members do not just want to "be heard". They want their boss to act on
 Retros are a powerful and fun tool for teams with a culture of candor, trust, critical feedback, and positive intent. If your corporate culture is lacking in these areas, you have bigger problems that won't be solved by a popular management framework or 1-on-1 template.
 
 
-## Buy products or consulting services if you are a biotech. Build if you are a tech firm.
+## Biotechs buy, tech firms build.
 
 Your decision to build versus buy depends on how your firm generates value, what you promised your investors, who you hired, and the culture you already built. We built a lean, focused platform and bought assistance.
 
@@ -79,7 +79,7 @@ Later, we provided detailed project proposals and defined milestones. We conduct
 We worked with superb partners such as Recursis, Rancho, Bridge Informatics, Code Ocean, and Manifold. Working with the best people is expensive but worth every cent. Bad consultants end up more expensive by wasting your time and patience. I recommend avoiding Genedata.
 
 
-## Track and reference work in a single source of truth. 
+## Track work in a single source of truth. 
 
 We used (and loved!) Notion for documentation, meeting notes, onboarding, etc., and GitHub Issues for tracking technical work. Tasks were categorized into `TODO`, `In Progress`, and `Done`. Every two weeks we opened the board, groomed the backlog, and synced on current priorities. However, the data scientists and data curators could not close issues via PRs since their deliverable was often solved without a pull request (PR). 
 
@@ -109,9 +109,9 @@ Technical people think a deliverable is a pull request describing a new or chang
 Technical people think a platform is ... well, there is no definition, so the lack of clarity around this useless word is almost expected. But I noticed technical people thought about scalable software ("our platform of data and apps") whereas biotech people thought about expert human labor ("our platform of immunologists who review literature for new targets").
 
 
-## Build an advisory board you can learn and grow from.
+## Build an advisory board.
 
-There are many smart, experienced, and supportive people with expertise in data science and software engineering within the context of biotech. Maybe you report to the CTO and have a board member or collaborator with a storied history at the intersection of technology and life science. I was not in that type of situation, so I found advisors outside of my company to mentor and develop me. They had titles like "Senior Principal", "Chief Data Officer", or "VP Data Science" and were people I looked up to, learned from in past roles, or were accomplishing what I aspired to do some day.
+There are many smart, experienced, and supportive people with expertise in data science and software engineering within the context of biotech. Maybe you report to the CTO and have a board member or collaborator with a storied history at the intersection of technology and life science. I was not in that type of situation, so I found advisors outside of my company to mentor and develop me. They had titles like "Senior Principal", "Chief Data Officer", or "VP Data Science". These advisors were distinct from our company's Scientific Advisory Board. 
 
 To maximize the value they could provide, I needed to speak freely about our company's work. To enable candor, we negotiated the right balance between compensation and a mutual NDA. Moreover, advisors should be discrete professionals. However, my discussions rarely broached sensitive IP.
 
@@ -126,7 +126,7 @@ Better: "We must accomplish X scientific goal by 2024Q2. I think doing Y is poss
 I also wish I convened the entire DSE advisory board in the same room (or at least Zoom call). Smart people feed off each other's energy and stronger ideas can emerge from the interactions.
 
 
-## Expect legacy systems, file formats, and thinking.
+## Prepare for enormous friction from legacy systems, file formats, and workflow.
 
 > Still in progress.
 
