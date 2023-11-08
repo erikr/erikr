@@ -70,7 +70,7 @@ In the early days, we explored a vision of creating the world's largest and best
 
 To adddress this mismatch, we reduced scope. The platform would support target validation, MoA studies, and CDx development. We also engaged consultants to help us curate data, develop bioinformatics pipelines (e.g., genomic imputation), and build our CDx pipeline (e.g., supervised ML to find SNPs associated with proxies of treatment response).
 
-In hindsight, this path better fit our eventual outcome. However, it was a tough reality checkfor me. We could have better aligned our branding to emphasize we were a biotech with data science and engineering interests, not a "techbio" firm. Or maybe it was clear to everyone else and I was in my own waking dream.
+In hindsight, this path better fit our eventual outcome. However, it was a tough reality check for me. We could have better aligned our branding to emphasize we were a biotech with data science and engineering interests, not a "techbio" firm. Or maybe it was clear to everyone else and I was in my own waking dream.
 
 As we worked with consultants, we learned lessons we wish we knew earlier. Initially, we loosely defined project scopes to be a flexible partner. We assessed competitors and signed with the one that looked best on paper. We gave regular feedback so they could converge on our preferred working style. We were gentle and understanding if they missed a deadline or had resource constraints. But then we got smarter and developed some process.
 
@@ -111,11 +111,9 @@ Technical people think a platform is ... well, there is no definition, so the la
 
 ## Build an advisory board.
 
-There are many smart, experienced, and supportive people with expertise in data science and software engineering within the context of biotech. Maybe you report to the CTO and have a board member or collaborator with a storied history at the intersection of technology and life science. I was not in that type of situation, so I found advisors outside of my company to mentor and develop me. They had titles like "Senior Principal", "Chief Data Officer", or "VP Data Science". These advisors were distinct from our company's Scientific Advisory Board. 
+There are many smart, experienced, and supportive people with expertise in data science and software engineering within the context of biotech. Maybe you report to the CTO and have a board member or collaborator with a storied history at the intersection of technology and life science. I was not in that type of situation, so I recruited some mentors to the Prometheus Data Science Advisory Board. These advisors were distinct from our Scientific Advisory Board.
 
-To maximize the value they could provide, I needed to speak freely about our company's work. To enable candor, we negotiated the right balance between compensation and a mutual NDA. Moreover, advisors should be discrete professionals. However, my discussions rarely broached sensitive IP.
-
-Biotechs are most secretive of their drug targets, candidates, and in our case, companion diagnostics. Data science platforms at a biotech tend to be considered less "secret sauce" and more "the pot that cooks the secret sauce".
+Advisors signed a mutual NDA and were compensated with hourly pay. Prometheus declined to compensate these advisors with equity, which was unusual; for more info about compensation, read this useful article by Halle Tecco, [On Being a Startup Advisor](https://www.halletecco.com/blog/on-being-a-startup-advisor).
 
 In hindsight, I wish I approached my advisors like a medical doctor engages specialists -- [by calling a consult](https://www.boardvitals.com/blog/calling-a-consult/). Rather than an unstructured quarterly catchup, I should have asked more specific questions and provided necessary information and context.
 
