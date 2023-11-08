@@ -6,6 +6,8 @@ tags:
 
 > Reading time: 10 minutes
 
+>  Opinions expressed are solely my own and do not express the views or opinions of Prometheus, Merck, or any other people or companies mentioned.
+
 ## You
 
 You are a technical leader at a biotech startup. Your title is Director, or VP of Data Science / Machine Learning / Engineering, or CTO / CDO. Your company wants to develop a "platform" or "engine", an exciting opportunity that is now your responsibility. This post is for you. Here I share ten tips that I wish I had when I started, and I hope you find useful. 
@@ -13,7 +15,7 @@ You are a technical leader at a biotech startup. Your title is Director, or VP o
 
 ## Background
 
-In early 2021 I joined Prometheus, a small biotech startup, as employee #27 and the head of data science and software engineering ("DSE"). Our mission was to develop precision therapeutics for autoimmune disease, with an initial focus on inflammatory bowel disease (IBD). Fresh off a $130M fundraise, we had a validated drug target (TL1A), a pipeline of antibody candidates, and an exclusive license to data and samples in the Cedars-Sinai Medical Center's IBD biobank. However, we lacked technical talent, curated data, and compute infrastructure to support our ambitions of precision medicine, as outlined in press releases at the time:
+In early 2021 I joined Prometheus, a small biotech startup, as employee #27 and the head of data science and software engineering ("DSE"). Our mission was to develop precision therapeutics for autoimmune disease, with an initial focus on inflammatory bowel disease (IBD). Fresh off a $130M fundraise, we had a validated drug target (TL1A), a pipeline of antibody candidates, and an exclusive license to data and samples in the Cedars-Sinai Medical Center's IBD biobank. Our ambitions in precision medicine were apparent in press releases at the time:
 
 > The company's precision medicine platform, Prometheus 360 (P360), combines proprietary bioinformatics discovery methods with one of the world's largest gastrointestinal bioinformatics databases to identify novel therapeutic targets and develop therapeutic candidates to engage those targets.
 
@@ -29,7 +31,7 @@ In March 2021, we IPO'd, announced positive phase 1 data, and expanded indicatio
 
 ## Biotechs care about scientific or clinical results, not platforms. 
 
-Nobody else cares about your data science / computational platform. To convey value, connect each "Win" to the related therapeutic program and how the capability helps the top-line goal. For example, an engineer rewrote our genetic imputation pipeline to be 200x faster. Nobody cared until they realized turnaround time from new sequenced samples to results was now 1 hour instead of 1 week. This enabled us to find and correct several errors in the upstream sample handling and downstream imputation process. Consequently, we achieved the desired statistical power for our lead program CDx.
+You care a lot about the platform. The potential impact and efficiency of scaling the same analyses across multiple scientific programs is obvious. Unfortunately, everyone else at your biotech is most likely indifferent. To convey value, connect each "Win" to the related therapeutic program and how the capability helps the top-line goal. For example, an engineer rewrote our genetic imputation pipeline to be 200x faster. Nobody cared until they realized turnaround time from new sequenced samples to results was now 1 hour instead of 1 week. This enabled us to find and correct several errors in the upstream sample handling and downstream imputation process. Consequently, we achieved the desired statistical power for our lead program CDx.
 
 
 ## Share your team's progress via a biweekly digest.
@@ -43,6 +45,8 @@ For "Challenges", surface issues that you want leadership to be aware of, or bet
 For "Next Steps", I listed 2-3 upcoming milestones. I omitted future goals that were months away or abstract. I like accountability so I was precise with who owned each next step, and the date of expected completion.
 
 Initially I wrote the digest, circulated to my team for feedback, and sent it out. Over time, I delegated more.
+
+People sometimes are concerned these updates take time away from actual work. We found the right balance between frequency and detail to actually save net time by replacing status update meetings or emails.
 
 
 ## Conduct monthly retrospectives with your team to reflect and learn.
@@ -62,13 +66,13 @@ Your team members do not just want to "be heard". They want their boss to act on
 Retros are a powerful and fun tool for teams with a culture of candor, trust, critical feedback, and positive intent. If your corporate culture is lacking in these areas, you have bigger problems that won't be solved by a popular management framework or 1-on-1 template.
 
 
-## Biotechs buy, tech firms build.
+## Biotechs buy, tech firms build, but you may have to do some of both.
 
-Your decision to build versus buy depends on how your firm generates value, what you promised your investors, who you hired, and the culture you already built. We built a lean, focused platform and bought assistance.
+Your decision to build versus buy depends on how your firm generates value, what you promised your investors, who you hired (and who you have to work with but didn't hire), the culture at your firm, and what tools are available. We built a lean, focused platform and bought assistance.
 
 In the early days, we explored a vision of creating the world's largest and best-curated IBD database, alongside novel computational tools to support new target discovery. This ambition would require a larger investment and more time than originally planned.
 
-To adddress this mismatch, we reduced scope. The platform would support target validation, MoA studies, and CDx development. We also engaged consultants to help us curate data, develop bioinformatics pipelines (e.g., genomic imputation), and build our CDx pipeline (e.g., supervised ML to find SNPs associated with proxies of treatment response).
+The right move was to reduced scope and better align capabilities with therapeutic program goals. I suggest you continually do the same! The platform would support target validation, MoA studies, and CDx development. We also engaged consultants to help us curate data, develop bioinformatics pipelines (e.g., genomic imputation), and build our CDx pipeline (e.g., supervised ML to find SNPs associated with proxies of treatment response).
 
 In hindsight, this path better fit our eventual outcome. However, it was a tough reality check for me. We could have better aligned our branding to emphasize we were a biotech with data science and engineering interests, not a "techbio" firm. Or maybe it was clear to everyone else and I was in my own waking dream.
 
@@ -79,22 +83,7 @@ Later, we provided detailed project proposals and defined milestones. We conduct
 We worked with superb partners such as Recursis, Rancho, Bridge Informatics, Code Ocean, and Manifold. Working with the best people is expensive but worth every cent. Bad consultants end up more expensive by wasting your time and patience. I recommend avoiding Genedata.
 
 
-## Track work in a single source of truth. 
-
-We used (and loved!) Notion for documentation, meeting notes, onboarding, etc., and GitHub Issues for tracking technical work. Tasks were categorized into `TODO`, `In Progress`, and `Done`. Every two weeks we opened the board, groomed the backlog, and synced on current priorities. However, the data scientists and data curators could not close issues via PRs since their deliverable was often solved without a pull request (PR). 
-
-To remedy this gap, we migrated work tracking into Notion. Every task had a link, every person had a view of the task table, all tasks had due dates, and the board could be viewed as a timeline with one click. If anyone at Prometheus wanted to know what Mark was working on, or what Sarah was blocked by, they could go to a Notion page and in a few clicks see the same content as anyone else.
-
-A pattern to avoid is to email or direct message the question, "what is the status of X?". Instead, go to the Notion page for the task and leave a comment.
-
-Your org might use Jira, Asana, or Monday instead of Notion. The exact tool doesn't matter. What matters is if your entire team tracks their work in the same place. No work lives outside of the app, and all work inside of the app is current.
-
-Tracking work in Notion beats emailing timelines in Powerpoint and tables in Excel. It aligns people without the pain of scheduling a meeting across time zones. Yet, if you work in biotech, you will encounter people who will request a slide with timelines and updates via email. Unless you are the founder or CEO, you don't have the mandate to change how people work. They are trying to accomplish something Screenshot your timeline and send them the slide they need. But also send them the Notion link and gently educate. Have empathy for those who have not yet seen the light.
-
-Ben Balter's post on [Why you should work asynchronously](https://ben.balter.com/2022/03/17/why-async/) is required reading for technical leaders.
-
-
-## Define words, norms, and workflow when you work with biotech people.
+## Biotech vs tech people use different vocabulary and mental models.
 
 Biotechs employ scientists, accountants, manufacturing specialists, lab managers, lawyers, medical affairs specialists, software developers, etc. It is a naive mistake to think everyone shares an understanding of words, norms, and workflow. The experiences that correct this mistake are surprisingly painful.
 
@@ -108,12 +97,33 @@ Technical people think a deliverable is a pull request describing a new or chang
 
 Technical people think a platform is ... well, there is no definition, so the lack of clarity around this useless word is almost expected. But I noticed technical people thought about scalable software ("our platform of data and apps") whereas biotech people thought about expert human labor ("our platform of immunologists who review literature for new targets").
 
+Even within a technical team, software engineers and data scientists have different ways of working. To succeed, leaders should find the most effective way for everyone to communicate and work together. This will require some flexibility from everyone, especially you. Be willing to listen and experiment.
+
+A mentor told me I'd get *one* ask that my team members would have to follow, but more marching orders beyond that would make people miserable and feel like they lost autonomy. I tried to have the team set their own norms wherever possible, but the single mandate I enforced was how and where we tracked our work.
+
+
+## Track work in a single source of truth. 
+
+We used (and grew to love!) Notion for documentation, meeting notes, onboarding, etc., and GitHub Issues for tracking technical work. Tasks were categorized into `TODO`, `In Progress`, and `Done`. Every two weeks we opened the board, groomed the backlog, and synced on current priorities. However, the data scientists and data curators could not close issues via PRs since their deliverable was often solved without a pull request (PR). 
+
+To remedy this gap, we migrated work tracking into Notion. Every task had a link, every person had a view of the task table, all tasks had due dates, and the board could be viewed as a timeline with one click. If anyone at Prometheus wanted to know what an engineer was working on, or what a data scientist was blocked by, they could go to a Notion page and in a few clicks see the same content as anyone else.
+
+A pattern to avoid is to email or direct message the question, "what is the status of X?". Instead, go to the Notion page for the task and leave a comment.
+
+Your org might use Jira, Asana, or Monday instead of Notion. The exact tool doesn't matter. What matters is if your entire team tracks their work in the same place. No work lives outside of the app, and all work inside of the app is current.
+
+Tracking work in Notion beats emailing timelines in Powerpoint and tables in Excel. It aligns people without the pain of scheduling a meeting across time zones. Yet, if you work in biotech, you will encounter people who will request a slide with timelines and updates via email.
+
+Unless you are the founder or CEO, you don't have the mandate to change how people work. They are trying to accomplish something Screenshot your timeline and send them the slide they need. But also send them the Notion link and gently educate. Have empathy for those who have not yet seen the light. I recommend you discuss as early as possible with leadership what changes are feasible versus unrealistic.
+
+Notion has helpful [guides and templates for project management](https://www.notion.so/help/guides/category/project-management).
+
 
 ## Build an advisory board.
 
 There are many smart, experienced, and supportive people with expertise in data science and software engineering within the context of biotech. Maybe you report to the CTO and have a board member or collaborator with a storied history at the intersection of technology and life science. I was not in that type of situation, so I recruited some mentors to the Prometheus Data Science Advisory Board. These advisors were distinct from our Scientific Advisory Board.
 
-Advisors signed a mutual NDA and were compensated with hourly pay. Prometheus declined to compensate these advisors with equity, which was unusual; for more info about compensation, read this useful article by Halle Tecco, [On Being a Startup Advisor](https://www.halletecco.com/blog/on-being-a-startup-advisor).
+Advisors signed a mutual NDA and were paid hourly. Prometheus treated these advisors like consultants in terms of compensation, approval (my CSO signed off for each person), budgeting (R&D personnel spend), and governance. For more info about compensation, read this useful article by Halle Tecco, [On Being a Startup Advisor](https://www.halletecco.com/blog/on-being-a-startup-advisor).
 
 In hindsight, I wish I approached my advisors like a medical doctor engages specialists -- [by calling a consult](https://www.boardvitals.com/blog/calling-a-consult/). Rather than an unstructured quarterly catchup, I should have asked more specific questions and provided necessary information and context.
 
@@ -121,7 +131,9 @@ Bad: "What do you think about biobanks? Would love some advice."
 
 Better: "We must accomplish X scientific goal by 2024Q2. I think doing Y is possible with Biobanks Z1, Z2, or Z3. We only have budget and time to access one biobank. Our concerns are [insert list here]. I think we should proceed with Z2 because [reasons]. What else should I consider?"
 
-I also wish I convened the entire DSE advisory board in the same room (or at least Zoom call). Smart people feed off each other's energy and stronger ideas can emerge from the interactions.
+It might have been useful and fun to convene the entire DSE advisory board in the same room (or at least Zoom call). Smart people feed off each other's energy.
+
+I encouraged (and budgeted for) members of the DSE team to directly communicate with and learn from our advisors. Make sure your advisors are OK with that arrangement, and ensure your team members are comfortable reaching out and aware of the expertise each advisor brings.
 
 
 ## Prepare for enormous friction from legacy systems, file formats, and workflow.
@@ -138,3 +150,4 @@ I also wish I convened the entire DSE advisory board in the same room (or at lea
 - But you also cannot accomplish anything tangible by ignoring it.
 - Palmer Lucky talks about the value of out-of-the-box thinkers being willing to endure interfacing with people who live in the box.
 - Spend some time to understand why files and systems are set up the way they are, while keeping in mind the subsequent improvement or evolution you want to achieve.
+- Timing for overhauls can be different depending on where the company stands/its deliverables/the market/etc. Overhauling a system during a fundraise period is not ideal, for instance.
