@@ -10,7 +10,7 @@ https://dnanexus.com/precision-health-data-platform
 https://formbio.com  
 https://genedata.com/products-services/biologics/software  
 https://insilico.com/pandaomics  
-https://lamin.ai  
+https://seqera.io/platform/  
 https://latch.bio  
 https://lifebit.ai  
 https://manifold.ai/science-cloud  
