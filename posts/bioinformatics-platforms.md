@@ -6,6 +6,7 @@ title: Bioinformatics platforms
 https://almaden.io  
 https://betteromics.com  
 https://biobox.io  
+https://codeocean.com  
 https://deeporigin.com/platform  
 https://digitalinsights.qiagen.com  
 https://dnanexus.com/precision-health-data-platform  
