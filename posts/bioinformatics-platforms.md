@@ -16,7 +16,6 @@ https://latch.bio
 https://lifebit.ai  
 https://manifold.ai/science-cloud  
 https://mantlebio.com  
-https://nanome.ai/mara/  
 https://ontologic.ly  
 https://pipebio.com  
 https://pluto.bio  
@@ -25,3 +24,4 @@ https://seqera.io/platform/
 https://terra.bio  
 https://velsera.com/seven-bridges-platform  
 https://watershed.bio  
+https://www.basepairtech.com  
