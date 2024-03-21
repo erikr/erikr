@@ -22,6 +22,7 @@ https://pipebio.com
 https://pluto.bio  
 https://saturncloud.io  
 https://seqera.io/platform/  
+https://tamarind.bio  
 https://terra.bio  
 https://velsera.com/seven-bridges-platform  
 https://watershed.bio  
